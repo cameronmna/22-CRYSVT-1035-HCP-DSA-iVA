@@ -96,6 +96,10 @@ article {
   margin: 0 auto;
 }
 
+.content-hp { 
+  width: 100% !important
+}
+
 .video { 
   float:right;
 }
