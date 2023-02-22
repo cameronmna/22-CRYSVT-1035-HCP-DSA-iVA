@@ -19,6 +19,11 @@ header {
   background-color: #ddd;
 }
 
+ul, li { 
+    list-style:none;
+    float:left;
+}
+
 .top-nav {
   width: 150px;
   height: 100%;
