@@ -13,10 +13,30 @@ body {
   flex-direction: column;
 }
 
+body { 
+  margin:0 auto;
+  width:1366px;
+  height:1024px;
+}
+
 header {
   height: 100px;
   width: 100%;
   background-color: #ddd;
+}
+button {
+  border:0px;
+  outline:0px;
+  background:none;
+}
+.h11 { 
+  margin-top: 20%;
+  margin-left: 6%;
+  width:20%;
+}
+
+.nxt {
+  margin-left: 6%;
 }
 
 ul, li { 
@@ -29,48 +49,49 @@ ul, li {
   height: 100%;
   float: left;
 }
-
 .top-nav ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
-
 .top-nav li {
   margin-bottom: 10px;
   background:none;
 }
-
 .top-nav a {
   display: block;
   padding: 10px;
   color: white;
   text-decoration: none;
 }
-
 div[id$="wrapper_text"] {
   margin: auto;
   width: 50%;
 }
-
 article {
   flex: 1;
 }
-
 .content {
   height: 100%;
-  background-color: #eee;
+  background-color: #f6f6f6;
 }
-
+.video { 
+  float:right;
+}
 footer {
   height: 90px;
   width: 100%;
-  background-color: #ddd;
+  background-color: #FFFFFF;
+  border-top: 1.5px solid #404040;
+  border-bottom: 1.5px solid #404040;
+  border-left: 1.5px solid #404040;
+  border-right: 1.5px solid #404040;
 }
 
 .bottom-nav {
   height: 100%;
   float: right;
+  background-color: #FFFFFF;
 }
 
 .bottom-nav ul {
@@ -84,13 +105,22 @@ footer {
   text-transform: uppercase;
 }
 
+.bottom-nav li.one { 
+  width: 242px;
+}
+
+.bottom-nav li.one img { 
+  margin-top:20px;
+}
+
 .bottom-nav a {
   display: block;
   width: 200px;
-  height: 90px;
+  height: 87px;
   line-height: 90px;
   text-align: center;
-  background-color: #aaa;
+  background-color: #FFFFFF;
   color: white;
   text-decoration: none;
+  border-left: 1.5px solid #404040;
 }
