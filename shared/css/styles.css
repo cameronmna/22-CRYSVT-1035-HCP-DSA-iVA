@@ -48,6 +48,10 @@ button {
   margin-left: 6%;
 }
 
+.whatcauses {
+  width: 69%;
+}
+
 ul, li { 
     list-style:none;
     float:left;
@@ -85,7 +89,9 @@ div[id$="wrapper_text"] {
 article {
   flex: 1;
 }
-
+.eighttwo {
+  width:80%;
+}
 .content {
   height: 100%;
   background-color: #f6f6f6;
@@ -95,7 +101,9 @@ article {
   width: 1207px;
   margin: 0 auto;
 }
-
+.refs {
+  width:30%;
+}
 .content-hp { 
   width: 100% !important
 }
