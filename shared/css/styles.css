@@ -148,7 +148,7 @@ article {
 }
 .top-nav img {
   float: right;
-  width: 20%;
+  /* width: 20%; */
   position: absolute;
   right: 328px;
   top: 33px;
@@ -209,11 +209,12 @@ footer {
 }
 
 .bottom-nav li.one { 
-  width: 242px;
+  width: 282px;
 }
 
 .bottom-nav li.one img { 
-  margin-top:20px;
+  margin-top: 20px;
+  margin-left: 20px;
 }
 
 .bottom-nav a {
@@ -226,4 +227,8 @@ footer {
   color: white;
   text-decoration: none;
   border-left: 1.5px solid rgba(115, 123, 143, .5);
+}
+
+.one-mg { 
+  width: 12%;
 }
