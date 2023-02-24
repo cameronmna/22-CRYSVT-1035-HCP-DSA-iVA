@@ -146,6 +146,13 @@ article {
 .full-im {
   width:100%;
 }
+.top-nav img {
+  float: right;
+  width: 20%;
+  position: absolute;
+  right: 328px;
+  top: 33px;
+}
 .bg-none { 
   background-image:none !important;
 }
