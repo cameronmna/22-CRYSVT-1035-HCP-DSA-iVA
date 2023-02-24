@@ -143,6 +143,12 @@ article {
   width: 1207px;
   margin: 0 auto;
 }
+.full-im {
+  width:100%;
+}
+.bg-none { 
+  background-image:none !important;
+}
 .refs {
   width:30%;
 }
