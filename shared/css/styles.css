@@ -84,8 +84,21 @@ button {
     margin-left: 7%;
 }
 
+.t-cop { 
+  width: 49%;
+  position: absolute;
+  top: 726px;
+  margin-left: 122px;
+}
+
 .whatcauses {
   width: 69%;
+  margin-top: 54px;
+  margin-left: 41px;
+}
+
+.mod-t { 
+  margin-left: 43px;
 }
 
 ul, li { 
@@ -146,9 +159,13 @@ article {
 .full-im {
   width:100%;
 }
+.char-ico { 
+  width: 443px;
+  height: 368px;
+  margin-right: 16px;
+}
 .top-nav img {
   float: right;
-  /* width: 20%; */
   position: absolute;
   right: 328px;
   top: 33px;
@@ -178,7 +195,11 @@ article {
   width: 80%;
   margin-top: 185px;
 }
-
+.t-pag { 
+    width: 16%;
+    margin-top: 14px;
+    margin-right: 8px;
+}
 .d-na { 
   width:80%;
   padding:30px;
