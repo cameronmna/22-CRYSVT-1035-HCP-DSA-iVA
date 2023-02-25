@@ -218,7 +218,9 @@ article {
   background-image:none !important;
 }
 .refs {
-  width:30%;
+  width: 80%;
+  margin-left: 20px;
+  margin-top: 20px;
 }
 .content-hp { 
   width: 100% !important
@@ -240,6 +242,10 @@ article {
   width: 16%;
   margin-top: 23px;
   margin-right: 8px;
+}
+.npag { 
+  width: 10% !important;
+  margin-top:14px;
 }
 .top-img { 
   width: 70%;
