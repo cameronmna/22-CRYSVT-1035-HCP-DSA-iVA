@@ -185,7 +185,8 @@ article {
   width:84%;
 }
 .three-t { 
-  width:80%;
+  width: 95%;
+  margin-top: 25px;
 }
 .content {
   height: 100%;
@@ -235,7 +236,7 @@ article {
 }
 .t-pag { 
   width: 16%;
-  margin-top: 14px;
+  margin-top: 23px;
   margin-right: 8px;
 }
 .top-img { 
@@ -296,5 +297,14 @@ footer {
   border-left: 1.5px solid rgba(115, 123, 143, .5);
 }
 .one-mg { 
-  width: 12%;
+  width: 10% !important;
+  margin-top: 17px;
+}
+.ttmod { 
+  margin-left:13px;
+}
+.ttpag { 
+  width: 24% !important;
+  margin-top: 19px;
+  margin-right: 5px;
 }
