@@ -142,7 +142,8 @@ article {
   width:80%;
 }
 .fourtw {
-  width:80%;
+  width: 100%;
+  margin-top: 25px;
 }
 .three-t { 
   width:80%;
@@ -196,9 +197,24 @@ article {
   margin-top: 185px;
 }
 .t-pag { 
-    width: 16%;
-    margin-top: 14px;
-    margin-right: 8px;
+  width: 16%;
+  margin-top: 14px;
+  margin-right: 8px;
+}
+.top-img { 
+  width: 70%;
+  margin-top: 35px;
+  margin-left: 25px;
+  padding-bottom: 10px;
+}
+.t-chart { 
+  width:80%;
+}
+.top-img { 
+  width:60%;
+}
+.btn { 
+  width:70%;
 }
 .d-na { 
   width:80%;
