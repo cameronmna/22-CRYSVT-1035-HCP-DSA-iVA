@@ -59,6 +59,7 @@ button {
   border:0px;
   outline:0px;
   background:none;
+  cursor:pointer;
 }
 .h11 { 
   margin-top: 20%;
@@ -68,14 +69,36 @@ button {
 .h112 { 
   width:41%;
 }
+.prior {
+  position: absolute;
+  top: 46%;
+  width: 17%;
+  right: 21%;
+}
+.pop5 { 
+  width: 97%;
+}
 .nxt {
   margin-left: 7%;
+}
+.five-popd {
+  position: absolute;
+  left: 11.3%;
+  top: 44%;
 }
 .t-cop { 
   width: 49%;
   position: absolute;
   top: 726px;
   margin-left: 122px;
+}
+.e-top {
+  width: 70%;
+  margin-top: 40px;
+  margin-left: 30px;
+}
+.f-pop { 
+  width:70%;
 }
 .whatcauses {
   width: 69%;
