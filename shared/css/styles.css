@@ -308,3 +308,17 @@ footer {
   margin-top: 19px;
   margin-right: 5px;
 }
+.epagn { 
+  width: 9% !important;
+  margin-top: 11px;
+}
+.pag6 { 
+  width: 16% !important;
+  margin-top: 12px;
+  margin-right: 5px;
+}
+.sixpag { 
+  width: 24% !important;
+  margin-right:10px;
+  margin-top:-10px;
+}
