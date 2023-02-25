@@ -3,23 +3,19 @@
   margin: 0;
   padding: 0;
 }
-
 html, body {
   height: 100%;
 }
-
 body {
   display: flex;
   flex-direction: column;
   background-color: #f6f6f6;
 }
-
 body { 
   margin:0 auto;
   width:1366px;
   height:1024px;
 }
-
 .modal {
   display: none; 
   position: fixed; 
@@ -33,7 +29,6 @@ body {
   /* background-color: rgb(0,0,0); Fallback color */
   background-color: rgba(52, 62, 89, .75); /* Black w/ opacity */
 }
-
 .modal-content {
   background-color: #fefefe;
   margin: auto;
@@ -41,21 +36,18 @@ body {
   border: 1px solid #888;
   width: 814px;
 }
-
 .close {
   color: #aaaaaa;
   float: right;
   font-size: 28px;
   font-weight: bold;
 }
-
 .close:hover,
 .close:focus {
   color: #000;
   text-decoration: none;
   cursor: pointer;
 }
-
 header {
   height: 100px;
   border-bottom: 1.5px solid rgba(115, 123, 143, .5);
@@ -63,78 +55,64 @@ header {
   width: 1207px;
   margin: 0 auto;
 }
-
 button {
   border:0px;
   outline:0px;
   background:none;
 }
-
 .h11 { 
   margin-top: 20%;
   margin-left: 6%;
   width:24%;
 }
-
 .h112 { 
   width:41%;
 }
-
 .nxt {
-    margin-left: 7%;
+  margin-left: 7%;
 }
-
 .t-cop { 
   width: 49%;
   position: absolute;
   top: 726px;
   margin-left: 122px;
 }
-
 .whatcauses {
   width: 69%;
   margin-top: 54px;
   margin-left: 41px;
 }
-
 .mod-t { 
   margin-left: 43px;
 }
-
 ul, li { 
     list-style:none;
     float:left;
 }
-
 .top-nav {
   width: 150px;
   height: 100%;
   float: left;
 }
-
 .top-nav ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
-
 .top-nav li {
   margin-bottom: 10px;
   background:none;
 }
-
 .top-nav a {
   display: block;
   padding: 10px;
   color: white;
   text-decoration: none;
 }
-
 div[id$="wrapper_text"] {
   margin: auto;
   width: 50%;
 }
-
 article {
   flex: 1;
 }
@@ -146,7 +124,7 @@ article {
   margin-top: 25px;
 }
 .f-tt { 
-  width:15%;
+  width:13%;
 }
 .shrn { 
   width: 13%;
@@ -184,6 +162,7 @@ article {
   position: absolute;
   right: 328px;
   top: 33px;
+  width: 13%;
 }
 .bg-none { 
   background-image:none !important;
@@ -194,18 +173,15 @@ article {
 .content-hp { 
   width: 100% !important
 }
-
 .video { 
   float:right;
 }
-
 .emily { 
   position: absolute;
   top: 17%;
   width: 25%;
   right: 392px;
 }
-
 .bottom-cta { 
   width: 80%;
   margin-top: 185px;
@@ -234,40 +210,33 @@ article {
   width:80%;
   padding:30px;
 }
-
 footer {
   height: 90px;
   width: 100%;
   background-color: #FFFFFF;
   border: 1.5px solid rgba(115, 123, 143, .5);
 }
-
 .bottom-nav {
   height: 100%;
   float: right;
   background-color: #FFFFFF;
 }
-
 .bottom-nav ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
-
 .bottom-nav li {
   float: right;
   text-transform: uppercase;
 }
-
 .bottom-nav li.one { 
   width: 282px;
 }
-
 .bottom-nav li.one img { 
   margin-top: 20px;
   margin-left: 20px;
 }
-
 .bottom-nav a {
   display: block;
   width: 200px;
@@ -279,7 +248,6 @@ footer {
   text-decoration: none;
   border-left: 1.5px solid rgba(115, 123, 143, .5);
 }
-
 .one-mg { 
   width: 12%;
 }
