@@ -239,10 +239,15 @@ article {
   margin-top: 185px;
 }
 .f-hd { 
-  float:left;
+  float: left;
+  width: 64%;
+  margin-top: 25px;
+  margin-left: 16px;
 }
 .f-cpy { 
-  float:left;
+  float: left;
+  width: 35%;
+  margin-left: 30px;
 }
 .t-pag { 
   width: 16%;
