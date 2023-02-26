@@ -238,6 +238,12 @@ article {
   width: 80%;
   margin-top: 185px;
 }
+.f-hd { 
+  float:left;
+}
+.f-cpy { 
+  float:left;
+}
 .t-pag { 
   width: 16%;
   margin-top: 23px;
@@ -331,7 +337,8 @@ footer {
   margin-top:-10px;
 }
 .lsml { 
-  float:right;
+  float: right;
+  margin-top: -134px;
 }
 .lsml img { 
   width:70%;
@@ -350,4 +357,35 @@ footer {
   width:17% !important;
   margin-top:14px;
   margin-right:10px;
+}
+
+table.table-pdfs {
+  width: 80%;
+  /* background-color: #ffffff; */
+  border: none;
+  color: #000000;
+  margin-right:-10px;
+}
+
+table {
+  margin-left: 27px;
+}
+
+table img { 
+  width: 100%;
+}
+
+table.table-pdfs td, table.table-pdfs th {
+  border-width: 1px;
+  border: none;
+  padding: 3px;
+}
+
+table.table-pdfs thead {
+  background-color: none;
+}
+
+.svnpg { 
+  width:10% !important;
+  margin-top:10px;
 }
