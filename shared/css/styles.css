@@ -83,7 +83,7 @@ button {
 .ttt-pop { 
   width: 19% !important;
   margin-top: 14px !important;
-  margin-left: -7px !important;
+  margin-right: 5px !important;
 }
 .tpop1 { 
   width: 87%;
@@ -163,15 +163,13 @@ div[id$="wrapper_text"] {
   margin: auto;
   width: 50%;
 }
-article {
-  /* flex: 1; */
-}
 .eighttwo {
   width:80%;
 }
 .fourtw {
-  width: 100%;
+  width: 96%;
   margin-top: 25px;
+  margin-left: 20px;
 }
 .f-tt { 
   width:13%;
@@ -179,7 +177,7 @@ article {
   margin-right: 7px;
 }
 .shrn { 
-  width: 13%;
+  width: 14% !important;
   margin-top: 10px;
   margin-right: 5px;
 }
@@ -190,7 +188,7 @@ article {
   width:84%;
 }
 .three-t { 
-  width: 95%;
+  width: 100%;
   margin-top: 25px;
 }
 .content {
@@ -244,7 +242,7 @@ article {
 .f-hd { 
   float: left;
   width: 64%;
-  margin-top: 25px;
+  margin-top: 28px;
   margin-left: 16px;
 }
 .f-cpy { 
@@ -334,8 +332,8 @@ footer {
   margin-left:36px;
 }
 .ttpag { 
-  width: 24% !important;
-  margin-top: 19px;
+  width: 25% !important;
+  margin-top: 16px;
   margin-right: 5px;
 }
 .epagn { 
@@ -354,31 +352,32 @@ footer {
 }
 .lsml { 
   float: right;
-  margin-top: -134px;
+  margin-top: -164px;
+  margin-right: 100px;
 }
 .fv-4pg { 
-  width: 14% !important;
+  width: 15% !important;
   margin-top: 13px;
-  margin-right: 6px;
+  margin-right: 8px;
 }
 .lsml img { 
   width:70%;
   float:right;
 }
 .fonepag { 
-  width:19% !important;
+  width:20% !important;
   margin-top:14px;
   margin-right:10px;
 }
 .fonepg { 
-  width: 14% !important;
-  margin-right:8px;
-  margin-top:19px;
+  width: 15% !important;
+  margin-right: 8px;
+  margin-top: 17px;
 }
 .f-2pg { 
-  width:17% !important;
-  margin-top:14px;
-  margin-right:10px;
+  width: 19% !important;
+  margin-top: 14px;
+  margin-right: 10px;
 }
 table.table-pdfs {
   width: 80%;
