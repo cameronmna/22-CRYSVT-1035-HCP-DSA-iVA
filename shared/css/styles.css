@@ -161,7 +161,7 @@ div[id$="wrapper_text"] {
   width: 50%;
 }
 article {
-  flex: 1;
+  /* flex: 1; */
 }
 .eighttwo {
   width:80%;
@@ -191,10 +191,10 @@ article {
   margin-top: 25px;
 }
 .content {
-  height: 102%;
+  height: 848px;
   background-color: #f6f6f6;
   background-image: url(../images/vector.png);
-  background-repeat: no-repeat;
+  background-repeat: repeat-y;
   background-position: right;
   width: 1207px;
   margin: 0 auto;
@@ -230,7 +230,7 @@ article {
 }
 .emily { 
   position: absolute;
-  top: 17%;
+  top: 13%;
   width: 25%;
   right: 392px;
 }
