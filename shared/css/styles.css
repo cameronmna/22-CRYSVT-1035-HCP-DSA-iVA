@@ -49,7 +49,7 @@ body {
   cursor: pointer;
 }
 header {
-  height: 100px;
+  height: 70px;
   border-bottom: 1.5px solid rgba(115, 123, 143, .5);
   background: #f6f6f6;
   width: 1207px;
@@ -133,8 +133,8 @@ button {
   margin-left: 43px;
 }
 ul, li { 
-    list-style:none;
-    float:left;
+  list-style:none;
+  float:left;
 }
 .top-nav {
   width: 150px;
@@ -191,7 +191,7 @@ article {
   margin-top: 25px;
 }
 .content {
-  height: 100%;
+  height: 102%;
   background-color: #f6f6f6;
   background-image: url(../images/vector.png);
   background-repeat: no-repeat;
@@ -211,7 +211,7 @@ article {
   float: right;
   position: absolute;
   right: 328px;
-  top: 33px;
+  top: 5px;
   width: 13%;
 }
 .bg-none { 
@@ -255,8 +255,11 @@ article {
   margin-right: 8px;
 }
 .npag { 
-  width: 10% !important;
+  width: 9.2% !important;
   margin-top:14px;
+}
+.mv { 
+  margin-left:9px;
 }
 .top-img { 
   width: 70%;
@@ -265,7 +268,8 @@ article {
   padding-bottom: 10px;
 }
 .t-chart { 
-  width:80%;
+    width: 89%;
+    margin-top: 32px;
 }
 .top-img { 
   width:60%;
@@ -328,22 +332,27 @@ footer {
   margin-right: 5px;
 }
 .epagn { 
-  width: 9% !important;
-  margin-top: 11px;
+  width: 8% !important;
+  margin-top: 13px;
 }
 .pag6 { 
   width: 16% !important;
   margin-top: 12px;
   margin-right: 5px;
-}
+} 
 .sixpag { 
-  width: 24% !important;
-  margin-right:10px;
-  margin-top:-10px;
+  width: 23% !important;
+  margin-right: 10px;
+  margin-top: 13px;
 }
 .lsml { 
   float: right;
   margin-top: -134px;
+}
+.fv-4pg { 
+  width: 14% !important;
+  margin-top: 13px;
+  margin-right: 6px;
 }
 .lsml img { 
   width:70%;
@@ -357,21 +366,19 @@ footer {
 .fonepg { 
   width: 14% !important;
   margin-right:8px;
+  margin-top:19px;
 }
 .f-2pg { 
   width:17% !important;
   margin-top:14px;
   margin-right:10px;
 }
-
 table.table-pdfs {
   width: 80%;
-  /* background-color: #ffffff; */
   border: none;
   color: #000000;
   margin-right:-10px;
 }
-
 table {
   margin-left: 27px;
 }
@@ -391,6 +398,6 @@ table.table-pdfs thead {
 }
 
 .svnpg { 
-  width:10% !important;
-  margin-top:10px;
+  width: 9% !important;
+  margin-top: 15px;
 }
