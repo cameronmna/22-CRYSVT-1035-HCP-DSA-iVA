@@ -8,8 +8,9 @@
   src: url("../fonts/GT-America-Condensed-Regular.otf") format("opentype");
   src: url("../fonts/GT-America-Condensed-Regular.ttf") format("truetype");
 } 
-nav { 
+header nav { 
   font-family:GT;
+  font-size: 28px;
 }
 html, body {
   height: 100%;
@@ -90,12 +91,19 @@ button {
 .mod-6 { 
   margin-left:23px;
 }
+.two-dots { 
+  right: -98px !important;
+  top: 51px !important;
+}
+.dots3 { 
+  margin-top: 2px;
+  margin-right: 6px;
+}
 .ff-pag { 
-  /* width: 30% !important; */
-  margin-top: 4px;
+  margin-top: -1px !important;
+  right: -97px !important;
 }
 .ttt-pop { 
-  /* width: 19% !important; */
   margin-top: 14px !important;
   margin-right: 5px !important;
 }
@@ -157,6 +165,7 @@ ul, li {
 }
 .top-nav {
   float: right;
+  margin-top:23px;
 }
 .top-nav ul {
   list-style: none;
@@ -221,11 +230,8 @@ div[id$="wrapper_text"] {
 .top-nav img {
   position: absolute;
   right: -75px;
-  top: 12%;
+  top: 71%;
   transform: scale(0.7);
-}
-header nav { 
-
 }
 .bg-none { 
   background-image:none !important;
@@ -243,7 +249,7 @@ header nav {
 }
 .emily { 
   position: absolute;
-  top: 13%;
+  top: 12%;
   width: 25%;
   right: 392px;
 }
@@ -349,11 +355,12 @@ footer {
   margin-top: 13px;
 }
 .pag6 { 
-  margin-top: 12px;
+  margin-top: 3px;
   margin-right: 5px;
 } 
 .sixpag { 
-  margin-top: 10px;
+  margin-top: 1px;
+  margin-right: -32px;
 }
 .lsml { 
   float: right;
