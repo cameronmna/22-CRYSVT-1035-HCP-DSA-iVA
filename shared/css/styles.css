@@ -134,6 +134,15 @@ button {
   margin-left: -158px;
   margin-top: 20px;
 }
+.i-54 { 
+  float: left;
+  margin-top: 206px;
+  margin-left: -416px;
+  width: 27%;
+}
+.pop54 { 
+  margin-top: -517px !important;
+}
 .s-pop { 
   width: 90%;
   margin-top: 20px;
@@ -318,7 +327,8 @@ div[id$="wrapper_text"] {
 }
 footer {
   height: 90px;
-  width: 100%;
+  width: 1207px;
+  margin: 0 auto;
   background-color: #FFFFFF;
   border: 1.5px solid rgba(115, 123, 143, .5);
 }
