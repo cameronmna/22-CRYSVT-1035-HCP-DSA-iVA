@@ -76,7 +76,7 @@ button {
 .h11 { 
   margin-top: 20%;
   margin-left: 6%;
-  width:24%;
+  width:22%;
 }
 .h112 { 
   width:41%;
@@ -237,7 +237,7 @@ div[id$="wrapper_text"] {
   background-color: #f6f6f6;
   background-image: url(../images/vector.png);
   background-repeat: repeat-y;
-  background-position: right;
+  background-position: 1022px;
   width: 1207px;
   margin: 0 auto;
 }
@@ -267,7 +267,9 @@ div[id$="wrapper_text"] {
   width: 100% !important
 }
 .video { 
-  float:right;
+  float: right;
+  width: 873px;
+  margin-right: 80px;
 }
 .emily { 
   position: absolute;
