@@ -16,7 +16,6 @@ html, body {
   height: 100%;
 }
 body {
-  display: flex;
   flex-direction: column;
   background-color: #f6f6f6;
 }
@@ -244,7 +243,7 @@ div[id$="wrapper_text"] {
   margin-top: 25px;
 }
 .content {
-  height: 848px;
+  height: 853px;
   background-color: #f6f6f6;
   background-image: url(../images/vector.png);
   background-repeat: repeat-y;
@@ -276,7 +275,8 @@ div[id$="wrapper_text"] {
   margin-top: 20px;
 }
 .content-hp { 
-  width: 100% !important
+  width: 100% !important;
+  height:908px;
 }
 .video { 
   float: right;

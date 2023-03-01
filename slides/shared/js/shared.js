@@ -17,4 +17,20 @@ window.addEventListener('load', function() {
       });
     });
   });
+
+  var thisHref, slideName;
+  function handlePageLinks(){
+      document.querySelectorAll('.page-link').forEach(item => {
+          item.addEventListener('click', event => {
+              if ('ontouchstart' in document.documentElement){
+                  event.preventDefault();
+                  thisHref = item.getAttribute('href').replace('../','');
+                  slideName = thisHref + '.zip'
+                  com.veeva.clm.gotoSlide(slideName,"");
+                  return;
+              }
+          });
+      });
+  }
+
 });
