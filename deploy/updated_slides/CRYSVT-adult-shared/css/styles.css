@@ -84,9 +84,9 @@ button {
 }
 .prior {
   position: absolute;
-  top: 394px;
-  width: 17%;
-  right: 21%;
+  top: 332px;
+  width: 25%;
+  right: 7%;
 }
 .mod-6 { 
   margin-left:23px;
@@ -100,7 +100,7 @@ button {
   margin-right: 6px;
 }
 .tcopy2 { 
-  width: 51%;
+  width: 907px;
   position: absolute;
   top: 701px;
   margin-left: 125px;
@@ -167,8 +167,8 @@ button {
 }
 .five-popd {
   position: absolute;
-  left: 167px;
-  top: 369px;
+  left: -122px;
+  top: 301px;
 }
 .t-cop { 
   width: 49%;
@@ -251,9 +251,10 @@ div[id$="wrapper_text"] {
   background-position: 1022px;
   width: 1207px;
   margin: 0 auto;
+  position:relative;
 }
 .full-im {
-  width:100%;
+  width:99.5%;
 }
 .char-ico { 
   width: 443px;
@@ -284,13 +285,14 @@ div[id$="wrapper_text"] {
 }
 .emily { 
   position: absolute;
-  top: 12%;
-  width: 25%;
-  right: 392px;
+  top: 6%;
+  width: 38%;
+  right: 130px;
 }
 .bottom-cta { 
-  width: 80%;
+  width: 77%;
   margin-top: 185px;
+  margin-left: -209px;
 }
 .f-hd { 
   float: left;
