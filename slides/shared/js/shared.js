@@ -4,6 +4,8 @@ window.addEventListener('load', function() {
   var buttons = document.querySelectorAll(".modal-button");
   var closeButtons = document.querySelectorAll(".close");
 
+  handlePageLinks();
+
   buttons.forEach(function(button, index) {
     button.addEventListener("click", function() {
       modals[index].style.display = "block";
@@ -17,8 +19,6 @@ window.addEventListener('load', function() {
       });
     });
   });
-
-  handlePageLinks();
 
   var thisHref, slideName;
   function handlePageLinks(){
