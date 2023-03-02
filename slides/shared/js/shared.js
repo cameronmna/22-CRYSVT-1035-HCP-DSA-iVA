@@ -18,6 +18,8 @@ window.addEventListener('load', function() {
     });
   });
 
+  handlePageLinks();
+
   var thisHref, slideName;
   function handlePageLinks(){
       document.querySelectorAll('.page-link').forEach(item => {
